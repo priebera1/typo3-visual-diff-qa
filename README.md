@@ -1,0 +1,1 @@
+# typo3-visual-diff-qa
