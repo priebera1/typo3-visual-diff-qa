@@ -1,0 +1,22 @@
+{
+    "name": "devsk/visualdiff",
+    "type": "typo3-cms-extension",
+    "description": "Visual diff extension for TYPO3 - compares two bases and shows pages with broken frontend",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^8.1",
+        "typo3/cms-core": "^13.0",
+        "typo3/cms-scheduler": "^13.0",
+        "ext-imagick": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devsk\\Visualdiff\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "devsk_visualdiff"
+        }
+    }
+}

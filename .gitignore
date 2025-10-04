@@ -1,0 +1,20 @@
+# TYPO3 specific
+/var/
+/.Build/
+/vendor/
+/composer.lock
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
